@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgres:16
+    container_name: db_challenge
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=db_challenge
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - db_network
+    restart: always
+
+networks:
+  db_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local
