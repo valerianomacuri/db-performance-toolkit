@@ -1,8 +1,8 @@
-# 🧠 Database Performance Challenge (Senior Level)
+# 🧠 Database Performance Toolkit
 
-This project is a **database performance challenge** designed to demonstrate **real senior-level backend skills**.
+This project demonstrates **how databases actually work**, not just how to write ORM code.
 
-It focuses on **how databases actually work**, not just how to write ORM code.
+It focuses on detecting, analyzing, and proving query performance improvements.
 
 Technologies used:
 
@@ -15,7 +15,7 @@ Technologies used:
 
 ## 🎯 Purpose
 
-The purpose of this challenge is to show:
+This project shows:
 
 * how to detect slow queries
 * how to analyze execution plans
@@ -24,8 +24,7 @@ The purpose of this challenge is to show:
 * when and why to use materialized views
 * how to compare performance **before and after optimizations**
 
-This is **not** about features.
-This is about **engineering judgment**.
+It is about **engineering judgment**, not features.
 
 ---
 
@@ -206,7 +205,7 @@ Materialized views are:
 
 ---
 
-## 🚫 Important Rules (Senior Rules)
+## 🚫 Best Practices
 
 * ❌ `synchronize: true` in production
 
@@ -237,16 +236,6 @@ Only the database can tell you:
 * how many disk pages were read
 * where the real bottleneck is
 
-This is how **senior engineers** debug performance.
-
----
-
-## 💬 Interview-Ready Explanation
-
-> “We never optimize blindly.
-> We compare execution plans before and after changes,
-> and treat indexes and materialized views as infrastructure concerns.”
-
 ---
 
 ## 🚀 Possible Next Steps
@@ -261,8 +250,7 @@ This is how **senior engineers** debug performance.
 
 ## ✅ Final Note
 
-This project reflects **real production problems**
-and **real senior-level solutions**.
+This project reflects **real production problems** and **real solutions**.
 
 It is designed to be:
 
